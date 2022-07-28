@@ -42,7 +42,7 @@ class Login extends React.Component {
 
     return (
       <form className="login-form">
-        <h1>Faça login em VanRpay</h1>
+        <h1>Faça login em VanRwallet</h1>
 
         <label htmlFor="email-input">
           E-mail:
