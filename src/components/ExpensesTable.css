@@ -1,0 +1,50 @@
+.table-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  margin: 0 20px;
+  padding: 16px;
+  width: 100%;
+}
+
+.expenses-container {
+  background-color: var(--high);
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.expenses-container th {
+  background-color: rgba(0, 15, 100, 0.6);
+  border-radius: 8px;
+  color: azure;
+  padding: 4px;
+  width: 120px;
+}
+
+.expenses-container th:last-of-type {
+  width: 140px;
+}
+
+.expenses-container .number {
+  font-weight: 600;
+}
+
+.expenses-container .buttons-panel {
+  display: flex;
+}
+
+.expenses-container button {
+  height: 1.5rem;
+  margin: 4px;
+  padding: 0;
+  width: 80px;
+}
+
+.buttons-panel button:disabled {
+  background-image: linear-gradient(to bottom, black, rgb(150, 150, 150));
+}
+
+.buttons-panel button:last-of-type {
+  background-image: linear-gradient(to bottom, rgb(80, 4, 4), rgb(210, 59, 59));
+}

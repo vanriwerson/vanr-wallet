@@ -1,0 +1,25 @@
+.login-form {
+  align-items: center;
+  background-color: rgba(18, 3, 70, 0.5);
+  border-radius: 8px;
+  color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 16px;
+  width: 320px;
+}
+
+.login-form input {
+  border-radius: 8px;
+  color: black;
+  height: 16px;
+  margin: 12px;
+  outline: none;
+  padding: 12px;
+}
+
+.login-form button:disabled {
+  background-image: linear-gradient(to bottom, rgb(59, 83, 214), rgb(18, 3, 70));
+  opacity: 0.5;
+}

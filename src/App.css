@@ -1,0 +1,10 @@
+.App {
+  align-items: center;
+  background-image: linear-gradient(to bottom, var(--high), var(--medium), var(--low));
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow-x: hidden;
+  text-align: center;
+  width: 100%;
+}
